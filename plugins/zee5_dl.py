@@ -84,11 +84,11 @@ async def zee5_capture(bot, update):
                     
             logger.info(url)
         except:
-            await update.reply_text("There's some issue with your URL 😕")
+            await update.reply_text("There's some issue with your URL 😕", quote=True)
             return
             
     else:
-        await update.reply_text("I can download from Zee5 links only! Use @UploadHEXbot for other links 😇")
+        await update.reply_text("I can download from Zee5 links only! Use @UploadHEXbot for other links 😇", quote=True)
         return
     
     try:
@@ -187,9 +187,10 @@ async def zee5_capture(bot, update):
                 reply_to_message_id=update.message_id
             )
         else:
-            await update.reply_text("There's some issue with your URL 😕 Or may be DRM protected!")
+            await update.reply_text("There's some issue with your URL 😕 Or may be DRM protected!", quote=True)
             return
     except:
+        await update.reply_text("Couldn't download your video!", quote=True)
         logger.info('format send error')
         return
              
@@ -422,4 +423,5 @@ async def zee5_execute(bot, update):
                     disable_web_page_preview=True
                 )               
     except:
+        await update.reply_text("Couldn't download your video!", quote=True)
         logger.info('error in process')
