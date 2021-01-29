@@ -1,5 +1,5 @@
 ## Zee5 Downloader
-
+If you find any bugs, report at @TroJanzSupport
 
 **My Features**:
 
