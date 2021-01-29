@@ -110,6 +110,9 @@ async def zee5_capture(bot, update):
         e_response = stderr.decode().strip()
         t_response = stdout.decode().strip()
 
+        if e_response:
+            logger.info(e_response)
+
         if t_response:
             x_reponse = t_response
             if "\n" in x_reponse:
