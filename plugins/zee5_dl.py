@@ -99,7 +99,9 @@ async def zee5_capture(bot, update):
             "--no-warnings",
             "--youtube-skip-dash-manifest",
             "-j",
-            url
+            url,
+            "--geo-bypass-country",
+            "IN"
         ]
         process = await asyncio.create_subprocess_exec(
             *command_to_exec,
@@ -247,7 +249,9 @@ async def zee5_execute(bot, update):
             "-o", download_directory
         ]                  
         command_to_exec.append("--no-warnings")
-
+        command_to_exec.append("--geo-bypass-country")
+        command_to_exec.append("IN")
+        
         start = datetime.now()
         process = await asyncio.create_subprocess_exec(
             *command_to_exec,
@@ -273,6 +277,9 @@ async def zee5_execute(bot, update):
                 "-o", download_directory
             ]                  
             command_to_exec.append("--no-warnings")
+            command_to_exec.append("--geo-bypass-country")
+            command_to_exec.append("IN")
+        
             start = datetime.now()
             process = await asyncio.create_subprocess_exec(
                 *command_to_exec,
