@@ -17,7 +17,7 @@ def help_user(bot, update):
     bot.send_message(
         chat_id=update.chat.id,
         text=script.HELP_USER,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/VKPROJECTS")]]),
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="JOIN OUR CHANNEL", url="https://t.me/VKPROJECTS")]]),
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
