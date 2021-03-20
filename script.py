@@ -6,9 +6,9 @@ I'm A simple Zee5 link downloader bot With Permanent Thumbnail Support💯.
 
 Please send me any Zee5 link, I can upload it to telegram as File/Video.
 
-Currently I'm in beta mode 🥺, If found any bugs, report @VKPROJECTS !
+Click <i>/help</i> for more details....
 
-Click <i>/help</i> for more details....</b>"""
+You must subscribe our channel in order to use me😇</b>"""
 
 
     HELP_USER = """<b>Hai, Follow these steps..</b>
@@ -18,10 +18,13 @@ Click <i>/help</i> for more details....</b>"""
 2. Send your zee5 url and select desired option.
 
 
-NOTE: Download may take some time! So please wait for it to complete!"""
+NOTE: Download may take some time! So please wait for it to complete!
 
 
-    ABOUT_TEXT = """⭕️<b>My Name : TroJanZ Zee5 DL</b>
+Made With ❤ With @VKPROJECTS"""
+
+
+    ABOUT_TEXT = """⭕️<b>My Name : Zee5 DL</b>
 
 ⭕️<b>Creater :</b> @VkProjects
 
