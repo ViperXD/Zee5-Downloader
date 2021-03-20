@@ -31,6 +31,11 @@
       "value": "680815375",
       "required": false
     },
+    "UPDATE_CHANNEL": {
+      "description": "For Force Subscribe. Paste your Update channel USERNAME (without @)..",
+      "value": "",
+      "required": false
+    },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
       "value": "",
